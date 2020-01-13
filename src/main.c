@@ -53,7 +53,7 @@ int swsh_cd(char** path){
 		fprintf(stderr, "swsh: expected argument to \"cd\"\n");
 	else{
 		if(chdir(path[1]) != 0)
-			perror("lsh");
+			perror("swsh");
 	}
 	return 1;
 }
