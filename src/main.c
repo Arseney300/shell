@@ -1,3 +1,10 @@
+/*
+ * @project Soundwave's simple shell
+ * @file main.cpp
+ * @author SoundWave
+ * @date January 6, 2020
+ * @brief Main file of project with main loop
+ * */
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <string.h>
